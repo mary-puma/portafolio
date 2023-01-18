@@ -1,0 +1,40 @@
+header {
+    position: fixed;
+    width: 100%;
+    background-color: rgb(44, 44, 51);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 3rem;
+
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 20px;
+    padding-top: 2rem;
+
+}
+
+.nav-links a {
+    text-decoration: none;
+    position: relative;
+    padding: 0 10px;
+}
+
+.nav-links a:after {
+    content: "";
+    background-color: aqua;
+    height: 3px;
+    transition: 0.3s;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 0;
+    transition: 0.3s;
+}
+
+.nav-links a:hover:after {
+    width: 100%;
+
+}

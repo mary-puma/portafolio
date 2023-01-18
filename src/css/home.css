@@ -1,0 +1,49 @@
+.background-hero{
+    background-color: rgb(15, 15, 43);
+    height: 800px;
+}
+
+.info-name {
+    
+    font-size: 3rem;
+}
+
+
+.imgHero {
+    width:480px;
+    height:350px;
+
+}
+.row-img {
+    margin-top: 140px;
+}
+
+
+.row-img .icon {
+    color:aqua;
+    font-size: 30px;
+    margin-top: 3rem;
+    margin-left: 4rem;
+    
+}
+.icon:hover {
+    transform: scale(1.2);
+}
+
+span {
+    display: block;
+    white-space: nowrap;
+    width: 24ch;
+    animation: typing 2s steps(24),
+    blink .5s infinite step-end alternate;
+    overflow: hidden;
+    
+}
+@keyframes typing {
+    from {width: 0}
+}
+@keyframes blink {
+    50% {border-color: transparent;}
+}
+
+

@@ -1,0 +1,79 @@
+.div-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 7rem;
+}
+
+.form-email {
+    width: 35rem;
+    background: rgb(17, 17, 53);
+    padding: 30px;
+    margin: auto;
+    margin-top: 1rem;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.title-form {
+
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.5rem;
+    color: aqua;
+    padding-bottom: 1rem;
+}
+
+.form-email input {
+    width: 100%;
+    background: rgb(17, 17, 53);
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid rgb(0, 255, 255);
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+    outline: none;
+}
+
+.box-text{
+    width: 100%;
+    background: rgb(17, 17, 53);
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid rgb(0, 255, 255);
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+    outline: none;
+
+}
+
+
+
+.form-email button {
+
+    color: rgb(17, 17, 53);
+    font-size: 20px;
+    background-color: aqua;
+    font-weight: bold;
+    border-radius: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+  
+
+
+}
