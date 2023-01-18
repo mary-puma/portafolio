@@ -32,7 +32,10 @@ function Proyectos() {
 
                             <ul className="box-color-flex">
                                 <li className="box-color-1" name="item1">Demo</li>
-                                <li className="box-color-2" name="item1">GitHub</li>
+                                <li className="box-color-2" name="item1" >
+                                    <a href='https://github.com/mary-puma/pelicula-disney' target='_blank' rel="noreferrer noopener">
+                                        GitHub</a>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -47,7 +50,10 @@ function Proyectos() {
 
                             <ul className="box-color-flex">
                                 <li className="box-color-1" name="item1">Demo</li>
-                                <li className="box-color-2" name="item1">GitHub</li>
+                                <li className="box-color-2" name="item1">
+                                    <a href='https://github.com/mary-puma/sistema-blog-spring-boot-api-rest' target='_blank' rel="noreferrer noopener">
+                                        GitHub</a>
+                                </li>
                             </ul>
                         </div>
                     </div>

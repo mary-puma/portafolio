@@ -8,22 +8,22 @@ function Header() {
             <nav>
                 <ul className='nav-links' >
                     <li >
-                        <a href='#home' className="nav-link text-white" >Home</a>
+                        <a href='#home' className="nav-link text-white" rel="noreferrer noopener">Home</a>
                     </li>
                     <li >
-                        <a href='#sobre-mi' className="nav-link text-white" >Sobre mí</a>
+                        <a href='#sobre-mi' className="nav-link text-white" rel="noreferrer noopener" >Sobre mí</a>
                     </li>
                     <li >
-                        <a href='#skills' className="nav-link text-white" >Skills</a>
+                        <a href='#skills' className="nav-link text-white" rel="noreferrer noopener">Skills</a>
                     </li>
                     <li >
-                        <a href='#experiencia' className="nav-link text-white " >Experiencia</a>
+                        <a href='#experiencia' className="nav-link text-white" rel="noreferrer noopener" >Experiencia</a>
                     </li>
                     <li >
-                        <a href='#proyecto' className="nav-link text-white ">Proyectos</a>
+                        <a href='#proyecto' className="nav-link text-white" rel="noreferrer noopener">Proyectos</a>
                     </li>
                     <li >
-                        <a href='#contacto' className="nav-link text-white " >Contacto</a>
+                        <a href='#contacto' className="nav-link text-white" rel="noreferrer noopener" >Contacto</a>
                     </li>
                 </ul>
             </nav>

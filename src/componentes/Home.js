@@ -52,7 +52,7 @@ function Home() {
             <div className='background-hero' id='home'>
                 <div className="d-flex justify-content-center align-items-center flex-wrap">
                     <div className="p-2 row-img">
-                        <img src={foto} className='imgHero' />
+                        <img src={foto} className='imgHero' alt=''/>
                     </div>
                     <div className="p-2 row-img text-white">
                         <h1 className='info-name'>Hola, Soy Mary Isabel Puma
@@ -62,10 +62,10 @@ function Home() {
                             <h1><span>{text}</span></h1>
                         </div>
 
-                        <a className='hover-icon' href='https://www.linkedin.com/in/mary-isabel-puma-aa899a20b/' target='_blank' rel='noreferrer'><FaLinkedin className='icon' /></a>
-                        <a className='hover-icon' href='https://github.com/mary-puma' target='_blank' rel='noreferrer'><FaGithub className='icon' /></a>
-                        <a href='https://github.com/mary-puma' target='_blank' rel='noreferrer'><FaEnvelope className='icon' /></a>
-                        <a href='https://github.com/mary-puma' target='_blank' rel='noreferrer'><FaWhatsapp className='icon' /></a>
+                        <a className='hover-icon' href='https://www.linkedin.com/in/mary-isabel-puma-aa899a20b/' target='_blank' rel="noreferrer noopener"><FaLinkedin className='icon' /></a>
+                        <a className='hover-icon' href='https://github.com/mary-puma' target='_blank' rel="noreferrer noopener"><FaGithub className='icon' /></a>
+                        <a href='#contacto' rel="noreferrer noopener"><FaEnvelope className='icon' /></a>
+                        <a href='https://wa.me/541126654794' target='_blank' rel="noreferrer noopener"><FaWhatsapp className='icon' /></a>
 
                     </div>
 
