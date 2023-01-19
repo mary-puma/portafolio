@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import '../css/footer.css'
 import { FaLinkedin, FaGithub } from 'react-icons/fa'
 
