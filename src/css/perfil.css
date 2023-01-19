@@ -17,3 +17,13 @@ p {
 .perfil {
     margin-top: 3rem;
 }
+
+@media (max-width: 768px) {
+
+    p {
+        padding-left: 100px;
+        padding-right: 100px;
+
+    }
+
+}

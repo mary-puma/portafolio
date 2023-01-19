@@ -94,3 +94,16 @@
     color: rgb(17, 17, 53);
 
 }
+
+@media (max-width: 768px) {
+
+    .card-container {
+        gap: 15px;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      
+    }
+    .card-item{
+        height: 420px;
+    }
+
+    }

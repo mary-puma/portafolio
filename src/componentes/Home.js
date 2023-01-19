@@ -1,13 +1,13 @@
 import foto from '../img/foto.png'
 import Perfil from './Perfil';
 import Skills from './Skills';
-import '../css/home.css'
 import Experiencia from './Experiencia';
 import Proyectos from './Proyectos';
 import Contacto from './Contacto';
 import { FaLinkedin, FaGithub, FaEnvelope, FaWhatsapp } from 'react-icons/fa'
 import 'animate.css'
 import { useEffect, useState } from "react"
+import '../css/home.css'
 function Home() {
 
     const [loopNum, setLoopNum] = useState(0);
@@ -50,11 +50,11 @@ function Home() {
     return (
         <>
             <div className='background-hero' id='home'>
-                <div className="d-flex justify-content-center align-items-center flex-wrap">
-                    <div className="p-2 row-img">
+                <div className="d-flex justify-content-center align-items-center flex-wrap  home-container">
+                    <div className="p-2 ">
                         <img src={foto} className='imgHero' alt=''/>
                     </div>
-                    <div className="p-2 row-img text-white">
+                    <div className="p-2  text-white ">
                         <h1 className='info-name'>Hola, Soy Mary Isabel Puma
                         </h1>
                         <br />

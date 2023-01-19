@@ -47,13 +47,12 @@ nav {
 
     nav {
         background-color: rgb(44, 44, 51);
-        ;
+        
     }
 
     .nav-links {
         position: absolute;
         background-color: rgb(44, 44, 51);
-        ;
         top: 40px;
         left: 0;
         display: flex;

@@ -12,14 +12,17 @@
 .imgHero {
     width:480px;
     height:350px;
+    margin-top: 6rem;
 
 }
-.row-img {
-    margin-top: 140px;
+
+.home-container .info-name {
+    margin-top: 6rem;
+
 }
 
 
-.row-img .icon {
+.home-container .icon {
     color:aqua;
     font-size: 30px;
     margin-top: 3rem;
@@ -28,6 +31,20 @@
 }
 .icon:hover {
     transform: scale(1.2);
+}
+
+@media (max-width: 768px) {
+
+    .home-container {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .home-container .info-name {
+        margin-top: 0rem;
+    
+    }
 }
 
 
