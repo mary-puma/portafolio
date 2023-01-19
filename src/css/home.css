@@ -1,17 +1,17 @@
-.background-hero{
+.background-hero {
     background-color: rgb(15, 15, 43);
     height: 800px;
 }
 
 .info-name {
-    
+
     font-size: 3rem;
 }
 
 
 .imgHero {
-    width:480px;
-    height:350px;
+    width: 480px;
+    height: 350px;
     margin-top: 6rem;
 
 }
@@ -23,29 +23,94 @@
 
 
 .home-container .icon {
-    color:aqua;
+    color: aqua;
     font-size: 30px;
     margin-top: 3rem;
     margin-left: 4rem;
-    
+
 }
+
 .icon:hover {
     transform: scale(1.2);
 }
 
-@media (max-width: 768px) {
+
+@media (max-width: 340px) and (min-width: 5px) {
+    .home-container {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .imgHero {
+        display: none;
+
+    }
+
+    .home-container .info-name {
+        margin-top: 8rem;
+    }
+
+    .home-container .icon {
+        margin-left: 2rem;
+    }
+
+}
+
+@media (max-width: 500px) and (min-width: 341px) {
+
+    .imgHero {
+        width: 300px;
+        height: 190px;
+        margin-top: 6rem;
+
+    }
+
+    .home-container .icon {
+
+        margin-left: 3rem;
+
+    }
+    .home-container .info-name {
+        margin-top: 0rem;
+
+    }
+
+}
+
+@media (max-width: 768px) and (min-width: 501px){
 
     .home-container {
         display: flex;
         flex-direction: column;
-        
+
+    }
+
+    .home-container .icon {
+        margin-left: 5rem;
     }
 
     .home-container .info-name {
         margin-top: 0rem;
-    
+
     }
 }
 
+@media (max-width: 1024px) and (min-width: 769px){
 
+    .home-container {
+        display: flex;
+        flex-direction: column;
 
+    }
+
+    .home-container .icon {
+        margin-left: 5rem;
+    }
+
+    .home-container .info-name {
+        margin-top: 0rem;
+
+    }
+
+}

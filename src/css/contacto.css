@@ -74,10 +74,25 @@
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px) and (min-width: 501px) {
 
     .form-email {
-        width: 35rem;
+        width: 25rem;
+    }
+
+}
+
+@media  (max-width: 340px) and (min-width: 5px){
+    .form-email {
+        width: 19rem;
+    }
+
+}
+
+@media (max-width: 500px) and (min-width: 341px){
+
+    .form-email {
+        width: 19rem;
     }
 
 }
