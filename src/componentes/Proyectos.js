@@ -16,7 +16,10 @@ function Proyectos() {
                             </p>
                             <ul className="box-color-flex">
                                 <li className="box-color-1" name="item1">Demo</li>
-                                <li className="box-color-2" name="item1">GitHub</li>
+                                <li className="box-color-2" name="item1">
+                                <a href='https://github.com/mary-puma/proyecto-react' target='_blank' rel="noreferrer noopener">
+                                        GitHub</a>
+                                </li>
                             </ul>
                         </div>
 
