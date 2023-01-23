@@ -5,8 +5,8 @@ function Perfil() {
         <div className='perfil'>
             <h1 className='titulo' id='sobre-mi'>Sobre mí</h1>
             <p className='text-white'>
-                Soy Desarrolladora Backend Java, me apasiona el desarrollo de software, aprender nuevas tecnologias
-                y tener nuevos desafios. Tambien estoy aprendiendo sobre desarrollo Frontend para poder complementar.
+                Soy Desarrolladora Backend Java, me apasiona el desarrollo de software, aprender nuevas tecnologías
+                y tener nuevos desafíos. Tambien estoy aprendiendo sobre desarrollo Frontend para complementar mis conocimientos.
                 Estoy cursando cuarto año de la carrera de Ingenieria Electronica en la UNLAM.
                 Me considero una persona organizada, proactiva y responsable. Busco mi primera experiencia laboral
                 como desarrolladora donde pueda crecer profesionalmente.

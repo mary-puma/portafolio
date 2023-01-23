@@ -14,13 +14,18 @@ p {
     padding-right: 200px;
 }
 
+h3{
+    padding-left: 200px; 
+}
+
+
 .perfil {
     margin-top: 3rem;
 }
 
 @media (max-width: 768px) and (min-width: 501px){
 
-    p {
+    p, h3 {
         padding-left: 100px;
         padding-right: 100px;
 
@@ -30,7 +35,7 @@ p {
 
 @media  (max-width: 340px) and (min-width: 5px){
 
-    p {
+    p, h3 {
         padding-left: 50px;
         padding-right: 50px;
 
@@ -39,7 +44,7 @@ p {
 }
 
 @media (max-width: 500px) and (min-width: 341px){
-    p {
+    p, h3 {
         padding-left: 30px;
         padding-right: 30px;
 

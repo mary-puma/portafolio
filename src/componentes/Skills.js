@@ -37,32 +37,32 @@ function Skills() {
                     </div>
 
                     <div className='grid-item'>
-                        <img src={react} />
+                        <img src={react} alt='react' />
                         <h4>React</h4>
                     </div>
 
                     <div className='grid-item'>
-                        <img src={java} />
+                        <img src={java} alt='java'/>
                         <h4>Java</h4>
                     </div>
                     <div className='grid-item'>
-                        <img src={springBoot} />
-                        <h4>SpringBoot</h4>
+                        <img src={springBoot} alt='springboot' />
+                        <h4>Spring Boot</h4>
                     </div>
                     <div className='grid-item'>
-                        <img src={git} />
+                        <img src={git} alt='git' />
                         <h4>Git</h4>
                     </div>
                     <div className='grid-item'>
-                        <img src={mysql} />
+                        <img src={mysql} alt='mysql' />
                         <h4>MySql</h4>
                     </div>
                     <div className='grid-item'>
-                        <img src={postman} />
+                        <img src={postman} alt='postman'/>
                         <h4>Postman</h4>
                     </div>
                     <div className='grid-item'>
-                        <img src={github} />
+                        <img src={github} alt='github'/>
                         <h4>GitHub</h4>
                     </div>
 

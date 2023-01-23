@@ -16,13 +16,7 @@ function Home() {
     const [text, setText] = useState('');
     const [delta, setDelta] = useState(150 - Math.random() * 100);
     const period = 2000;
-    useEffect(() => {
-        let ticker = setInterval(() => {
-            tick();
-        }, delta)
-        return () => { clearInterval(ticker) };
-
-    }, [text]);
+    
     const tick = () => {
         let i = loopNum % toRotate.length;
         let fullText = toRotate[i];
@@ -43,6 +37,13 @@ function Home() {
         }
 
     }
+    useEffect(() => {
+        let ticker = setInterval(() => {
+            tick();
+        }, delta)
+        return () => { clearInterval(ticker) };
+
+    }, [text]);
 
 
 
